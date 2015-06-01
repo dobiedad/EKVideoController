@@ -73,6 +73,7 @@
     
     [self.view addSubview:self.moviePlayer.view];
     [self.view addSubview:self.moviePlayerMask];
+    [self.view sendSubviewToBack:self.moviePlayerMask];
     [self.view sendSubviewToBack:self.moviePlayer.view];
 }
 
